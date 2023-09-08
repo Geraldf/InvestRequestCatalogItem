@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Fuchsclan Test">27b23cc3974131102d7ebf56f053afcd</applet_launcher>
+        <icon display_value="Home Fuchsclan Test">a3b23cc3974131102d7ebf56f053afce</icon>
+        <label>Fuchsclan Test</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 12:42:47</sys_created_on>
+        <sys_id>63b23cc3974131102d7ebf56f053afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fuchsclan Test</sys_name>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_63b23cc3974131102d7ebf56f053afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 12:42:47</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>
