@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Investment  request">cd2bced097d571102d7ebf56f053af85</cat_item>
+        <cat_variable>IO:cd7c861497d571102d7ebf56f053af04</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validation</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue === '') {
+        return;
+    }
+	debugger;
+    if (Number(newValue) < 800) {
+        //alert('Der Betrag muss größer als 800 Euro sein.');
+		g_form.addErrorMessage('Der Investionsbetrag muss größer als 800 Euro sein.');
+        g_form.setValue('investionsbetrag', '');
+    }
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 11:41:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dffa4d1497d171102d7ebf56f053afbc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_update_name>catalog_script_client_dffa4d1497d171102d7ebf56f053afbc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-12 06:58:39</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</application>
+        <file_path/>
+        <instance_id>ffd77b33db71db483353f22ebf961942</instance_id>
+        <instance_name>dev58633</instance_name>
+        <name>catalog_script_client_dffa4d1497d171102d7ebf56f053afbc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Investment  request"&gt;cd2bced097d571102d7ebf56f053af85&lt;/cat_item&gt;&lt;cat_variable&gt;IO:cd7c861497d571102d7ebf56f053af04&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validation&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue === '') {
+        return;
+    }
+	debugger;
+    if (Number(newValue) &lt; 800) {
+        //alert('Der Betrag muss größer als 800 Euro sein.');
+		g_form.addErrorMessage('Der Investionsbetrag muss größer als 800 Euro sein.');
+        g_form.setValue('investionsbetrag', '');
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 11:41:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dffa4d1497d171102d7ebf56f053afbc&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan"&gt;57227043974131102d7ebf56f053afdd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Fuchsclan Test"&gt;57227043974131102d7ebf56f053afdd&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_dffa4d1497d171102d7ebf56f053afbc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-12 06:58:39&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>172787230</payload_hash>
+        <record_name>Validation</record_name>
+        <reverted_from/>
+        <source>feeb0617970131102d7ebf56f053af7a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-12 06:58:39</sys_created_on>
+        <sys_id>dfe31d2097d1b1102d7ebf56f053af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a882f5b6e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-12 06:58:39</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>17e31d20eed1b110b6741904af131798</update_guid>
+        <update_guid_history>17e31d20eed1b110b6741904af131798:172787230,71a3952030d1b1109262d49cd17512a9:-157498384,2cce85e89691b110d0e050835c2ed24f:80565717,7a6f4e181cd57110fecb7a2052416243:-1266788703,846f0e18dcd57110d1ca368e6ca13d25:1574774849,0e5e46d4ead57110e8fb88799fe27bbf:-1889001975,360e0e943dd57110d63c0bfe6576d939:60262604,f18919549d157110a14fb4e65006b3be:0,e34c8594a6d171104035f724a01f469b:-1426790097,e34c859461d1711009f48e58f91d0398:683796541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Validation">a624916097d1b1102d7ebf56f053afdd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-12 06:59:41</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>14cd73fec3574000a5b5858f90000000</sys_id>
+        <sys_metadata>dffa4d1497d171102d7ebf56f053afbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validation</sys_name>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_scope_delete display_value="">575faf65b2d34581aa7cc9fe632cea49</sys_scope_delete>
+        <sys_update_name>catalog_script_client_dffa4d1497d171102d7ebf56f053afbc</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_dffa4d1497d171102d7ebf56f053afbc">dfe31d2097d1b1102d7ebf56f053af98</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-12 06:59:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

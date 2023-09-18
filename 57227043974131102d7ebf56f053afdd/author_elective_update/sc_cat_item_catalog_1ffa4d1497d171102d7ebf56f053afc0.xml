@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Investment  request">6493b047974131102d7ebf56f053afcf</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 11:41:08</sys_created_on>
+        <sys_id>1ffa4d1497d171102d7ebf56f053afc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Service Catalog.Investment  request</sys_name>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1ffa4d1497d171102d7ebf56f053afc0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-11 11:46:52</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</application>
+        <file_path/>
+        <instance_id>ffd77b33db71db483353f22ebf961942</instance_id>
+        <instance_name>dev58633</instance_name>
+        <name>sc_cat_item_catalog_1ffa4d1497d171102d7ebf56f053afc0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Investment  request">6493b047974131102d7ebf56f053afcf</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 11:41:08</sys_created_on><sys_id>1ffa4d1497d171102d7ebf56f053afc0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Service Catalog.Investment  request</sys_name><sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package><sys_policy/><sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope><sys_update_name>sc_cat_item_catalog_1ffa4d1497d171102d7ebf56f053afc0</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-11 11:46:52</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>62763176</payload_hash>
+        <record_name>Service Catalog.Investment  request</record_name>
+        <reverted_from/>
+        <source>1f4c459497d171102d7ebf56f053afa6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-11 11:46:52</sys_created_on>
+        <sys_id>234c859497d171102d7ebf56f053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8410df1d0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-11 11:46:52</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e34c859430d17110f301604ddf8df6a4</update_guid>
+        <update_guid_history>e34c859430d17110f301604ddf8df6a4:62763176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Investment  request">99891154971571102d7ebf56f053afc0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 12:44:37</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>12d683f70dad4b73a8a87948aaa727a9</sys_id>
+        <sys_metadata>1ffa4d1497d171102d7ebf56f053afc0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Investment  request</sys_name>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_parent display_value="">6493b047974131102d7ebf56f053afcf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_scope_delete display_value="">575faf65b2d34581aa7cc9fe632cea49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_1ffa4d1497d171102d7ebf56f053afc0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_1ffa4d1497d171102d7ebf56f053afc0">234c859497d171102d7ebf56f053afa5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 12:44:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
