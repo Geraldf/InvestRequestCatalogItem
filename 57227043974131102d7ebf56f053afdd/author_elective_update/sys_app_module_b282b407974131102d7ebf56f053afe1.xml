@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Fuchsclan Test">ba827cc3974131102d7ebf56f053af3b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_557984_ks_inve_0_investment_requests</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 12:41:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b282b407974131102d7ebf56f053afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_update_name>sys_app_module_b282b407974131102d7ebf56f053afe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 12:41:55</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</application>
+        <file_path/>
+        <instance_id>ffd77b33db71db483353f22ebf961942</instance_id>
+        <instance_name>dev58633</instance_name>
+        <name>sys_app_module_b282b407974131102d7ebf56f053afe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Fuchsclan Test">ba827cc3974131102d7ebf56f053af3b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_557984_ks_inve_0_investment_requests</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-07 12:41:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b282b407974131102d7ebf56f053afe1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package><sys_policy/><sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope><sys_update_name>sys_app_module_b282b407974131102d7ebf56f053afe1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-07 12:41:55</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1655194522</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>5f223007974131102d7ebf56f053af1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 12:41:55</sys_created_on>
+        <sys_id>fe82b407974131102d7ebf56f053afe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a6fa9d47c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 12:41:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f282b407e4413110dbc20d1694ec9de2</update_guid>
+        <update_guid_history>f282b407e4413110dbc20d1694ec9de2:-1655194522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">086454639795f1102d7ebf56f053af8a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 10:02:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>281dc9da91b745508d45de59164a5910</sys_id>
+        <sys_metadata>b282b407974131102d7ebf56f053afe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Fuchsclan InvestRequest" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_scope_delete display_value="">575faf65b2d34581aa7cc9fe632cea49</sys_scope_delete>
+        <sys_update_name>sys_app_module_b282b407974131102d7ebf56f053afe1</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b282b407974131102d7ebf56f053afe1">fe82b407974131102d7ebf56f053afe2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 10:02:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

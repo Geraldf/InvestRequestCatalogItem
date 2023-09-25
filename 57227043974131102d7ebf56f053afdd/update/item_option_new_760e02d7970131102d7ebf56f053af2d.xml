@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>javascript:gs.getUserID()</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -27,7 +27,7 @@
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions/>
+        <instructions><![CDATA[<p>Der Investionsbetrag muss größer 800 Euro betragen. </p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>requested_for</name>
-        <order>100</order>
+        <name>investionsbetrag</name>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Requested for?</question_text>
+        <question_text>Investionsbetrag</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -55,7 +55,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference>sys_user</reference>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -76,23 +76,23 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 11:41:07</sys_created_on>
-        <sys_id>7414f087974131102d7ebf56f053afec</sys_id>
+        <sys_id>760e02d7970131102d7ebf56f053af2d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Requested for?</sys_name>
+        <sys_name>Investionsbetrag</sys_name>
         <sys_package display_value="Fuchsclan InvestRequest" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</sys_scope>
-        <sys_update_name>item_option_new_7414f087974131102d7ebf56f053afec</sys_update_name>
+        <sys_update_name>item_option_new_760e02d7970131102d7ebf56f053af2d</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-11 11:46:53</sys_updated_on>
         <table/>
-        <tooltip>Name for whom this is requested for</tooltip>
-        <type>8</type>
+        <tooltip>Betrag muss &gt; 800€ betragen</tooltip>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex/>
+        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=7414f087974131102d7ebf56f053afec"/>
-    <fx_price action="delete_multiple" query="id=7414f087974131102d7ebf56f053afec"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=760e02d7970131102d7ebf56f053af2d"/>
+    <fx_price action="delete_multiple" query="id=760e02d7970131102d7ebf56f053af2d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>7414f087974131102d7ebf56f053afec</id>
+        <id>760e02d7970131102d7ebf56f053af2d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-07 12:49:17</sys_created_on>
-        <sys_id>fe34b487974131102d7ebf56f053af73</sys_id>
+        <sys_created_on>2023-09-08 14:01:50</sys_created_on>
+        <sys_id>176eced7970131102d7ebf56f053afc0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-07 12:49:17</sys_updated_on>
+        <sys_updated_on>2023-09-08 14:01:50</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>7414f087974131102d7ebf56f053afec</id>
+        <id>760e02d7970131102d7ebf56f053af2d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-07 12:49:17</sys_created_on>
-        <sys_id>3a347447974131102d7ebf56f053afee</sys_id>
+        <sys_created_on>2023-09-08 14:01:50</sys_created_on>
+        <sys_id>1f6eced7970131102d7ebf56f053afbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-07 12:49:17</sys_updated_on>
+        <sys_updated_on>2023-09-08 14:01:50</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Investment Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 12:41:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2827cc3974131102d7ebf56f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Investment Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fuchsclan InvestRequest" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_update_name>sys_app_module_f2827cc3974131102d7ebf56f053af3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 12:41:55</sys_updated_on>
+        <timeline_page/>
+        <title>Investment Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</application>
+        <file_path/>
+        <instance_id>ffd77b33db71db483353f22ebf961942</instance_id>
+        <instance_name>dev58633</instance_name>
+        <name>sys_app_module_f2827cc3974131102d7ebf56f053af3f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Investment Requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-07 12:41:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f2827cc3974131102d7ebf56f053af3f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Investment Requests</sys_name><sys_overrides/><sys_package display_value="Fuchsclan InvestRequest" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package><sys_policy/><sys_scope display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</sys_scope><sys_update_name>sys_app_module_f2827cc3974131102d7ebf56f053af3f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-07 12:41:55</sys_updated_on><timeline_page/><title>Investment Requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>403495507</payload_hash>
+        <record_name>Investment Requests</record_name>
+        <reverted_from/>
+        <source>feeb0617970131102d7ebf56f053af7a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 10:14:44</sys_created_on>
+        <sys_id>a317986b9795f1102d7ebf56f053af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ab73c1d920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 10:14:44</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6f17986b2d95f110836d3d2c89925199</update_guid>
+        <update_guid_history>6f17986b2d95f110836d3d2c89925199:0,be82b4076c4131107faa84b837f3d3df:-848544979</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Investment Requests">317758ab9795f1102d7ebf56f053af69</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 10:16:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>089869298ff24438806025703672c0c4</sys_id>
+        <sys_metadata>f2827cc3974131102d7ebf56f053af3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Investment Requests</sys_name>
+        <sys_package display_value="Fuchsclan InvestRequest" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_scope_delete display_value="">575faf65b2d34581aa7cc9fe632cea49</sys_scope_delete>
+        <sys_update_name>sys_app_module_f2827cc3974131102d7ebf56f053af3f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f2827cc3974131102d7ebf56f053af3f">a317986b9795f1102d7ebf56f053af9a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 10:16:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

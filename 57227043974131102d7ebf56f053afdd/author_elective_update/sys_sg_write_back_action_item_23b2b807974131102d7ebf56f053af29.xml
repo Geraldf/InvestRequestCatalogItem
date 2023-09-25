@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Delete (Investment Requests)</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 12:42:48</sys_created_on>
+        <sys_id>23b2b807974131102d7ebf56f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Investment Requests)</sys_name>
+        <sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_23b2b807974131102d7ebf56f053af29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 12:42:48</sys_updated_on>
+        <table>x_557984_ks_inve_0_investment_requests</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=23b2b807974131102d7ebf56f053af29"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</application>
+        <file_path/>
+        <instance_id>ffd77b33db71db483353f22ebf961942</instance_id>
+        <instance_name>dev58633</instance_name>
+        <name>sys_sg_write_back_action_item_23b2b807974131102d7ebf56f053af29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Delete (Investment Requests)</name><parameter_screen/><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-07 12:42:48</sys_created_on><sys_id>23b2b807974131102d7ebf56f053af29</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete (Investment Requests)</sys_name><sys_package display_value="Fuchsclan Test" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package><sys_policy/><sys_scope display_value="Fuchsclan Test">57227043974131102d7ebf56f053afdd</sys_scope><sys_update_name>sys_sg_write_back_action_item_23b2b807974131102d7ebf56f053af29</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-07 12:42:48</sys_updated_on><table>x_557984_ks_inve_0_investment_requests</table><template/><type>delete</type><use_current_record_as_condition>true</use_current_record_as_condition><use_fields_for_ref_lookup>false</use_fields_for_ref_lookup></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=23b2b807974131102d7ebf56f053af29"/></record_update>]]></payload>
+        <payload_hash>-268241711</payload_hash>
+        <record_name>Delete (Investment Requests)</record_name>
+        <reverted_from/>
+        <source>5f223007974131102d7ebf56f053af1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 12:42:48</sys_created_on>
+        <sys_id>7bb2b807974131102d7ebf56f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a6faaa5130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 12:42:48</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>ffb2b80735413110c1aad21e9ef2a574</update_guid>
+        <update_guid_history>ffb2b80735413110c1aad21e9ef2a574:-268241711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 10:02:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>5086e4d6cb4b4d64bbd7afb05d155e01</sys_id>
+        <sys_metadata>23b2b807974131102d7ebf56f053af29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Investment Requests)</sys_name>
+        <sys_package display_value="Fuchsclan InvestRequest" source="x_557984_fuchsclan">57227043974131102d7ebf56f053afdd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fuchsclan InvestRequest">57227043974131102d7ebf56f053afdd</sys_scope>
+        <sys_scope_delete display_value="">575faf65b2d34581aa7cc9fe632cea49</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_23b2b807974131102d7ebf56f053af29</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_23b2b807974131102d7ebf56f053af29">7bb2b807974131102d7ebf56f053af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 10:02:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
